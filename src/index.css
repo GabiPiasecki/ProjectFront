@@ -1,0 +1,65 @@
+html, body, #root{
+  position: relative;
+  padding-bottom: 20px;
+  min-height: 100vh;
+  margin :0;
+  padding: 0;
+  height: 100%;
+  text-align: center;
+  font-style: italic;
+  background-color: rgb(226, 226, 226);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.column {
+  float:left;
+  width: 23.5%;
+  padding: 0 10px;
+}
+
+.row {
+  margin: 0 -10px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+.Menu {
+  border: 2px solid #d3d3d3;
+  border-radius: .5em;
+  margin-bottom: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  padding: 1em;
+  width: 410px;
+  font-size: x-large;
+  color: #FFFFFF;
+  text-decoration: none;
+  color: black;
+  background-color: white;
+}
+
+.Form {
+  border: 2px solid #d3d3d3;
+  border-radius: .5em;
+  margin-bottom: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  padding: 1em;
+  width: 500px;
+  
+}
+

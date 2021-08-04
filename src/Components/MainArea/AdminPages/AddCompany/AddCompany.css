@@ -1,0 +1,12 @@
+.AddCompany {
+    direction: ltr;
+    text-align: center;
+}
+
+.button {
+    width:200px;
+}
+
+input{
+    font-size: 30px;
+}

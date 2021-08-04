@@ -1,0 +1,10 @@
+.CustomerDetailsPage {
+    border: 2px solid #bba0a0;
+    border-radius: .5em;
+    margin-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding: 1em;
+    width: 400px;	
+}
